@@ -1,0 +1,9 @@
+[Unit]
+Description=Filescanner service by Ali
+
+[Service]
+Type=simple
+ExecStart=/home/ali/filescanner.sh
+
+[Install]
+WantedBy=multi-user.target
